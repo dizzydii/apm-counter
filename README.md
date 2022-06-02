@@ -10,9 +10,10 @@ The APM takes into account all keyboard and mouse presses. After a period of ide
 To run create virtualenv in project folder and run the following commands.
 
 python -m pip install -r requirements.txt
-python .\main.py
-
+python .\main.py \
 
 To close the Application press the close button in the top right or press the "left control" + "backspace" keys.
 
-ToDo: Add 1 click exe
+
+# make exe 
+pyinstaller main.py -F -n "Apm Counter" -i "keyboard.ico" --paths .\venv\Lib\site-packages --noconsole --specpath .\assets\build --distpath .\assets\dist
