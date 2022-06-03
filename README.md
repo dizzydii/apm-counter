@@ -11,7 +11,7 @@ The APM takes into account all keyboard and mouse presses. After a period of ide
 Just run the "Apm Counter.exe". \
 Windows might warn you with the following message:\
 > Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.
-Click on "more info" and then on "run anyways".
+Click on "more info" and then on "run anyways". \
 If you distrust the exe feel free to build the exe yourself.
 ## Python
 To run create virtualenv in project folder and run the following commands. \
